@@ -9,10 +9,15 @@
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
-    <link rel="icon" type="image/png" href="./images/favicon-96x96.png" sizes="96x96"/>
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/favicon-96x96.png"
+      sizes="96x96"
+    />
     <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
     <link rel="icon" href="./images/favicon/favicon.ico" />
-    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
   </head>
   <body class="page">
     <header class="header container">
@@ -21,7 +26,45 @@
         <p class="header__subtitle">закрывающий тег</p>
       </div>
     </header>
-    <main></main>
+    <main class="main">
+      <ul class="list">
+        <li class="list__item">
+          <article class="card container">
+            <div class="card__container-title">
+              <h2 class="card__title">
+                Фритрек и нулевой спринт: Подготовка к работе
+              </h2>
+            </div>
+            <div class="card__container-img">
+              <img
+                class="card__images"
+                src="./images/card.png"
+                alt="Картинка машины"
+              />
+              <span class="card__img-span">&lt;/HTML&gt;</span>
+            </div>
+            <div class="card__footer">
+              <p class="card__text">
+                Это было самое начало пути. На этом этапе важно было
+                проникнуться основами и настроиться на учёбу. И, возможно,
+                подумать, как новые знания могут повлиять на ваше будущее.
+              </p>
+              <p class="card__text">
+                Место для ваших воспоминаний о начале обучения.
+              </p>
+              <div class="card__container-button">
+                <button type="button" class="card__icon-button">
+                  <!-- SVG иконка сердца будет добавлена позже -->
+                </button>
+                <button type="button" class="card__like-button button">
+                  <span class="button__text">Like</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
