@@ -15,4 +15,7 @@
   min-block-size: 100dvb;
   font-family: var(--main-font);
   font-variation-settings: 'wght' var(--main-text-weight);
+  background-image: var(--page-background);
+  background-size: cover;
+  background-attachment: fixed;
 }
