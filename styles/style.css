@@ -19,3 +19,35 @@
   background-size: cover;
   background-attachment: fixed;
 }
+
+.header {
+  padding-top: 100px;
+  font-family: var(--accent-font);
+  text-align: center;
+  line-height: 1;
+}
+
+.container {
+  max-inline-size: var(--content-width);
+  margin: 0 auto;
+}
+
+.header__title {
+  font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+  margin-bottom: 20px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.header__subtitle {
+  text-transform: uppercase;
+  font-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
+  vertical-align: text-top;
+}
+
+.header__wrapper {
+  background-color: var(--color-primary);
+  padding-block: clamp(120px, 110.77px + 2.4615vw, 128px);
+  border: var(--border-default);
+  box-sizing: border-box;
+}
