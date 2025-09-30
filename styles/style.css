@@ -150,3 +150,33 @@
   padding: 0;
   margin-right: 5px;
 }
+
+.card__like-button {
+  width: 130px;
+  height: 38px;
+  background-color: transparent;
+}
+
+.button {
+  min-height: 38px;
+  background-color: var(--color-primary);
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  overflow: hidden;
+  position: relative;
+  font-size: 14px;
+  font-family: var(--accent-font);
+  border: var(--border-default);
+}
+
+.button__text {
+  line-height: 0.9;
+  font-family: var(--accent-font);
+  font-size: 14px;
+  font-weight: 400;
+}
