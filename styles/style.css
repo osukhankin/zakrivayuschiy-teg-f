@@ -241,3 +241,31 @@
   height: 39px;
   flex-shrink: 0;
 }
+
+@media (width <= 375px) {
+  .main {
+    margin-top: 100px;
+  }
+
+  .card__footer {
+    padding-top: 27px;
+  }
+
+  .card__container-img {
+    height: 371px;
+  }
+
+  .button {
+    gap: 13px;
+    flex-direction: column;
+  }
+
+  .button svg {
+    transform: scale(1.33);
+  }
+
+  .popup__container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
