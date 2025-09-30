@@ -525,7 +525,36 @@
           </article>
         </li>
       </ul>
+      <button
+        class="button main__button-footer"
+        type="button"
+        onclick="window['dialog-id'].showModal();"
+        aria-controls="dialog-id"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21">
+          <use href="svg/floppy.svg#edit" />
+        </svg>
+        <span class="button__text">Сохранить на память</span>
+      </button>
     </main>
+    <dialog class="popup" id="dialog-id">
+      <div class="popup__container">
+        <div class="popup__header">
+          <svg viewBox="0 0 21 21">
+            <use href="svg/floppy.svg#edit" />
+          </svg>
+          <p class="popup__text">Вставьте дискету, чтобы продолжить</p>
+        </div>
+
+        <button
+          class="button"
+          type="button"
+          onclick="window['dialog-id'].close()"
+        >
+          <span class="button__text">ок</span>
+        </button>
+      </div>
+    </dialog>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
