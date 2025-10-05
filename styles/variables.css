@@ -8,7 +8,7 @@
   --border-default: 2px solid var(--color-secondary, #000);
   --color-secondary: rgba(0, 0, 0, 1);
   --text-base: 18px;
-  --contour-color: #ff0000;
+  --contour-color: #000000;
   --page-background: 
     repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
     repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
