@@ -11,7 +11,7 @@
 */
 
 .page {
-  font-family: var(--main-font, sans-serif);
+  font-family: var(--main-font, "Inter"), "Arial", sans-serif;
   font-weight: var(--main-font-weight, 410);
   font-size: var(--text-base);
   background-image: var(--page-background);
@@ -23,7 +23,7 @@
 
 .header {
   padding-top: 100px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font, "Press Start 2P"), "Courier New", monospace;
   line-height: 1;
   text-align: center;
 }
@@ -105,7 +105,7 @@
   right: 25px;
   opacity: 0.5;
   color: var(--color-primary);
-  font-family: var(--accent-font);
+  font-family: var(--accent-font, "Press Start 2P"), "Courier New", monospace;
   font-size: 14px;
   text-shadow: -1px -1px 0 var(--color-primary), 1px -1px 0 var(--color-primary),
     -1px 1px 0 var(--color-primary), 1px 1px 0 var(--color-primary);
@@ -181,7 +181,7 @@
   min-height: 38px;
   border: var(--border-default);
   overflow: hidden;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font, "Press Start 2P"), "Courier New", monospace;
   font-size: 14px;
   background-color: var(--color-primary);
   transition: box-shadow 0.3s ease;
@@ -210,7 +210,7 @@
 }
 
 .button__text {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font, "Press Start 2P"), "Courier New", monospace;
   font-weight: 400;
   font-size: 14px;
   line-height: 0.9;
@@ -253,7 +253,7 @@
 
 .popup__text {
   max-width: 234px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font, "Press Start 2P"), "Courier New", monospace;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
