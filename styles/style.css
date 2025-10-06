@@ -19,13 +19,17 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  padding-top: 100px;
 }
 
 .header {
-  padding-top: 100px;
   font-family: var(--accent-font, "Press Start 2P"), "Courier New", monospace;
   line-height: 1;
   text-align: center;
+  box-sizing: border-box;
+  border: var(--border-default);
+  padding-block: clamp(120px, 110.77px + 2.4615vw, 128px);
+  background-color: var(--color-primary);
 }
 
 .container {
@@ -46,12 +50,6 @@
   text-transform: uppercase;
 }
 
-.header__wrapper {
-  box-sizing: border-box;
-  border: var(--border-default);
-  padding-block: clamp(120px, 110.77px + 2.4615vw, 128px);
-  background-color: var(--color-primary);
-}
 
 .main {
   margin-top: 98px;
