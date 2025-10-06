@@ -66,20 +66,16 @@
   border: var(--border-default);
 }
 
-.card__container-title {
+.card__title {
   display: flex;
   align-items: center;
   min-height: 30px;
   padding: 4px 10px;
   vertical-align: center;
-  font-size: 18px;
-  background-color: var(--color-primary);
-}
-
-.card__title {
   font-size: var(--text-base);
   line-height: 22px;
   font-variation-settings: "wght" var(--card-title-weight);
+  background-color: var(--color-primary);
 }
 .card__text {
   font-variation-settings: "wght" var(--main-text-weight);
